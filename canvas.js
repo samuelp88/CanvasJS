@@ -6,6 +6,7 @@
 function start() {
     let canvas = document.getElementById('canvas');
     let ctx = canvas.getContext('2d');
+    let audio = document.getElementById('audio').play();
     
     class Galinha {
         constructor() {
