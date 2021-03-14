@@ -8,7 +8,7 @@ function start() {
     let ctx = canvas.getContext('2d');
     
     let audio = document.getElementById('audio')
-    audio.currentTime = 59;
+    audio.currentTime = 0;
     audio.play();
     
     class Galinha {
